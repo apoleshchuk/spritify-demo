@@ -1,0 +1,11 @@
+@import 'nib'
+
+$7up = json("demo/demo__7up.json", { hash: true })
+
+.icon
+	image("demo/demo__7up.png", unit($7up.properties.width, px), unit($7up.properties.height, px))
+	for $name, $data in $7up.coordinates
+		&_{$name}
+			background-position: unit($data.x, px) unit($data.y, px)
+			width: unit($data.width, px)
+			height: unit($data.height, px)

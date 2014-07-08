@@ -1,0 +1,26 @@
+{
+  "name": "spritify-demo",
+  "version": "0.0.0",
+  "description": "Sample config for build retinafy sprites via grunt task",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apoleshchuk/spritify-demo.git"
+  },
+  "author": "Anton Poleshchuk <anton@poleshchuk.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apoleshchuk/spritify-demo/issues"
+  },
+  "homepage": "https://github.com/apoleshchuk/spritify-demo",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-imgo": "^0.1.1",
+    "grunt-retinafy": "^0.1.5",
+    "grunt-tamia-sprite": "^0.2.0",
+    "load-grunt-tasks": "^0.6.0"
+  }
+}
